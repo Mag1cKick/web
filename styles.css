@@ -1,0 +1,641 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.navbar {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.sign_button {
+    background-color: orange;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s ease;
+    box-shadow: 0 0 1000px 300px rgb(253, 221, 157)
+}
+
+.sign_button:hover {
+    background-color: darkorange;
+}
+
+.highlight {
+    color: orange;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top_a {
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.promotion {
+    color: orange;
+    background-color: rgba(255, 165, 0, 0.2);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 125px;
+}
+
+.main_slogan {
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    font-size: 72px;
+    width: 600px;
+    font-weight: bold;
+}
+
+.woman-img {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+
+.maint_block_text {
+    font-weight: bold;
+    color: gray;
+    margin-top: 20;
+    margin-left: 125px;
+    font-size: 20px;
+    width: 500px;
+}
+
+.order_food_button {
+    background-color: orange;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s ease;
+    margin-left: 125px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.order_food_button:hover {
+    background-color: darkorange;
+}
+
+.header-comment {
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    left: 750px;
+    background-color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-comment {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.customer-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating img {
+    width: 15px;
+    margin-left: 20px;
+}
+
+.rating span {
+    font-size: 16px;
+}
+
+.graphik {
+    color: transparent;
+}
+.our-happy-customer {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+.statistics {
+    margin-top: 80px;
+    margin-left: 125px;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stat span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stat span:last-child {
+    font-size: 16px;
+    color: gray;
+}
+
+.why-choose-us {
+    margin-top: 150px;
+    margin-left: 125px;
+    width: 550px;
+    font-size: 48px;
+}
+.main_description {
+    position: absolute;
+    top: 950px;
+    left: 750px;
+    font-size: 20px;
+    color: rgb(153, 153, 153);
+    width: 500px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.bonus1 {
+    height: 400px;
+    background-color: white;
+    color: black;
+    padding: 15px 45px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+.bonus {
+    height: 400px;
+    background-color: white;
+    color: black;
+    padding: 15px 45px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+    margin-left: 40px;
+}
+
+.bonus:last-child {
+    position: absolute;
+    top: 1142px;
+    left: 900px;
+}
+
+.bonus1:hover {
+    border-color: transparent;
+    box-shadow: 0 0 30px 10px rgb(252, 214, 137);
+}
+
+.bonus:hover {
+    border-color: transparent;
+    box-shadow: 0 0 30px 10px rgb(252, 214, 137);
+}
+
+.benefit-header {
+    font-size: 26px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.benefit-description {
+    font-size: 15px;
+    color: gray;
+    width: 270px;
+}
+
+.Learn-more {
+    background-color: white;
+    color: black;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+.Learn-more:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.Learn-more3 {
+    background-color: white;
+    color: black;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s ease;
+    margin-top: 38px;
+}
+
+.Learn-more3:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.rewievs {
+    background-color: rgb(255, 247, 228);
+    margin-top: 100px;
+    width: auto;
+    height: 700px;
+}
+
+.people-saying {
+    position: absolute;
+    top: 1800px;
+    left: 125px;
+    width: 550px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.about-us-description {
+    position: absolute;
+    top: 1970px;
+    left: 125px;
+    width: 400px;
+    font-size: 17px;
+    color: rgb(158, 158, 158);
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.p1 {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 2100px;
+    left: 125px;
+}
+
+.p2 {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 2130px;
+    left: 185px;
+    color: rgb(158, 158, 158);
+}
+
+.about-us-right-button {
+    position: absolute;
+    top: 2170px;
+    left: 205px;
+    background-color: transparent;
+    border: none;
+}
+
+.about-us-left-button {
+    position: absolute;
+    top: 2170px;
+    left: 125px;
+    background-color: transparent;
+    border: none;
+}
+
+.comment-text {
+    width: 250px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.years1 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+}
+
+.commenting-person {
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.comment_selena {
+    position: absolute;
+    border-radius: 15px;
+    top: 1820px;
+    left: 600px;
+    background-color: white;
+    width: 280px;
+    height: 400px;
+}
+
+.selena {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.comment_david {
+    position: absolute;
+    border-radius: 15px;
+    top: 1820px;
+    left: 910px;
+    background-color: white;
+    width: 280px;
+    height: 400px;
+}
+
+.david {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.comment_jennifer {
+    position: absolute;
+    border-radius: 15px;
+    top: 1820px;
+    left: 1220px;
+    background-color: white;
+    width: 280px;
+    height: 400px;
+}
+
+.jennifer {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.discount-small-header {
+    margin-top: 100px;
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+}
+
+.discount-header {
+    text-align: center;
+    font-size: 48px;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.offer1 {
+    position: absolute;
+    top: 2720px;
+    left: 200px;
+}
+
+.offer2 {
+    position: absolute;
+    top: 2720px;
+    left: 570px;
+}
+
+.offer3 {
+    position: absolute;
+    top: 2720px;
+    left: 940px;
+}
+
+.salad-name {
+    position: absolute;
+    top: 375px;
+    left: 30px;
+    color: white;
+}
+
+.price {
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subscribe-small-header {
+    margin-top: 700px;
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subscribe-header {
+    text-align: center;
+    font-size: 48px;
+    width: 700px;
+    margin-left: 250px;
+    color: rgb(68, 68, 68);
+}
+
+.subscribed {
+    position: relative;
+    background-color: rgb(255, 242, 214);
+    background-image: url("imgs/bacground-subscribe.png");
+    margin-left: 200px;
+    width: 1200px;
+    height: 500px;
+    border-radius: 55px;
+}
+
+.subscribe-description {
+    text-align: center;
+    margin-left: 375px;
+    width: 450px;
+}
+
+.subscribe-form {
+    background-color: white;
+    color: gray;
+    padding: 25px 45px;
+    border: none;
+    border-radius: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.input_a {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.subscribe-button {
+    background-color: orange;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 55px;
+    position: absolute;
+    top: 330px;
+    font-weight: bold;
+    left: 830px;
+    cursor: pointer;
+    transition: 0.3s ease
+}
+
+.subscribe-button:hover {
+    background-color: darkorange;
+}
+
+.footer-info {
+    margin-left: 125px;
+    margin-top: 150px;
+}
+
+.footer-description {
+    width: 200px;
+    color: rgb(71, 71, 71);
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.cop {
+    position: absolute;
+    top: 4180px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    top: 3985px;
+    left: 500px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3985px;
+    left: 800px;
+}
+
+.bot_a {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+}
+
+.fotka {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-us-info {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.social-media {
+    position: absolute;
+    top: 3985px;
+    left: 1100px;
+}
+
+.social-media-icons {
+    letter-spacing: 20px;
+}
+
+.end-span {
+    position: relative;
+    top: 20px;
+}
